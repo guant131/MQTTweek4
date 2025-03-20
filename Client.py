@@ -54,7 +54,7 @@ while True:
   if nowstep == "1":
     DoorMesaage="No command"
   else:
-    status = bool(input("What instructions do you want to send? close_door:0 open_door:1"))
+    status = input("What instructions do you want to send? close_door:0 open_door:1")
     DoorMesaage = "Close the door" if status == '0' else "Open the door"
   # nextstep=input("Next step:Whether to exit? continue:0 exit:1")
   day = date.today()  # date function call
